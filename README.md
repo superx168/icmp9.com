@@ -1,7 +1,5 @@
 #  简单部署流程
 
-## 准备
-
 ### 1.注册icmp9.com 账号，获取API KEY
 
 ![获取获取API KEYl 设置](https://github.com/user-attachments/assets/e55908be-f4e3-4294-aaee-4855fca2f3ec)
@@ -63,7 +61,7 @@ services:
       - ./data/subscribe:/root/subscribe
 ```
 
-## 节点订阅地址
+### 节点订阅地址
 
 https://{ICMP9_SERVER_HOST}/{ICMP9_API_KEY}
 
@@ -72,3 +70,9 @@ https://{ICMP9_SERVER_HOST}/{ICMP9_API_KEY}
 - {ICMP9_API_KEY} 为从 https://icmp9.com/user/dashboard 获取的 API KEY
 
 格式如： https://icmp9.nezha.pp.ua/b58828c1-4df5-4156-ee77-a889968533ae
+
+###  感谢
+
+- https://github.com/fscarmen/ArgoX
+
+- https://github.com/fscarmen/client_template
